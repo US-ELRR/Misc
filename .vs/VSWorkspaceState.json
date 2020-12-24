@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "\\Groovy",
+    "\\Objects",
+    "\\Scripts",
+    "\\Templates"
   ],
-  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
