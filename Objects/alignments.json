@@ -526,5 +526,6 @@
         "http://activitystrea.ms/at": -0.7,
         "http://activitystrea.ms/watch": -0.2,
         "http://activitystrea.ms/win": -0.5
-    }
+    },
+    alignnment-map : "::com.yetanalytics.datasim.input.alignments/alignment-map"
 }
