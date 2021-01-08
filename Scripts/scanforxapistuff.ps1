@@ -13,12 +13,15 @@ foreach ($datum in $modeldata.concepts){
        $item = New-Object PSObject
        $Item | add-member -type NoteProperty -Name "type" -Value $datum.type
        $Item | add-member -type NoteProperty -Name "label" -Value $datum.prefLabel.en
+       $Item | add-member -type NoteProperty -Name "definition" -Value $datum.definition.en
+
        $items = $items+ $item
 
         
 }
 foreach ($itema in $Items){
-write-host $itema.label  "("$itema.type")"   
+write-host $itema.label  "("$itema.type")  Defined as `""$itema.definition"`""    
+write-host ""    
 }
 
 
