@@ -1,144 +1,87 @@
-﻿[string[]] $List = @("http://activitystrea.ms/access", 
-        "http://activitystrea.ms/acknowledge",
-        "http://activitystrea.ms/agree",
-        "http://activitystrea.ms/append",
-        "http://activitystrea.ms/approve",
-        "http://activitystrea.ms/archive",
-        "http://activitystrea.ms/assign",
-        "http://activitystrea.ms/attach",
-        "http://activitystrea.ms/attend",
-        "http://activitystrea.ms/author",
-        "http://activitystrea.ms/authorize",
-        "http://activitystrea.ms/borrow",
-        "http://activitystrea.ms/build",
-        "http://activitystrea.ms/cancel",
-        "http://activitystrea.ms/checkin",
-        "http://activitystrea.ms/close",
-        "http://activitystrea.ms/complete",
-        "http://activitystrea.ms/confirm",
-        "http://activitystrea.ms/consume",
-        "http://activitystrea.ms/create",
-        "http://activitystrea.ms/delete",
-        "http://activitystrea.ms/deliver",
-        "http://activitystrea.ms/deny",
-        "http://activitystrea.ms/disagree",
-        "http://activitystrea.ms/dislike",
-        "http://activitystrea.ms/experience",
-        "http://activitystrea.ms/favorite",
-        "http://activitystrea.ms/flag-as-inappropriate",
-        "http://activitystrea.ms/follow",
-        "http://activitystrea.ms/find",
-        "http://activitystrea.ms/give",
-        "http://activitystrea.ms/host",
-        "http://activitystrea.ms/ignore",
-        "http://activitystrea.ms/insert",
-        "http://activitystrea.ms/install",
-        "http://activitystrea.ms/interact",
-        "http://activitystrea.ms/invite",
-        "http://activitystrea.ms/join",
-        "http://activitystrea.ms/leave",
-        "http://activitystrea.ms/like",
-        "http://activitystrea.ms/listen",
-        "http://activitystrea.ms/lose",
-        "http://activitystrea.ms/make-friend",
-        "http://activitystrea.ms/open",
-        "http://activitystrea.ms/play",
-        "http://activitystrea.ms/present",
-        "http://activitystrea.ms/purchase",
-        "http://activitystrea.ms/qualify",
-        "http://activitystrea.ms/read",
-        "http://activitystrea.ms/receive",
-        "http://activitystrea.ms/reject",
-        "http://activitystrea.ms/remove",
-        "http://activitystrea.ms/remove-friend",
-        "http://activitystrea.ms/replace",
-        "http://activitystrea.ms/request",
-        "http://activitystrea.ms/request-friend",
-        "http://activitystrea.ms/resolve",
-        "http://activitystrea.ms/retract",
-        "http://activitystrea.ms/return",
-        "http://activitystrea.ms/rsvp-maybe",
-        "http://activitystrea.ms/rsvp-no",
-        "http://activitystrea.ms/rsvp-yes",
-        "http://activitystrea.ms/satisfy",
-        "http://activitystrea.ms/save",
-        "http://activitystrea.ms/schedule",
-        "http://activitystrea.ms/search",
-        "http://activitystrea.ms/send",
-        "http://activitystrea.ms/share",
-        "http://activitystrea.ms/sell",
-        "http://activitystrea.ms/sponsor",
-        "http://activitystrea.ms/start",
-        "http://activitystrea.ms/stop-following",
-        "http://activitystrea.ms/submit",
-        "http://activitystrea.ms/tag",
-        "http://activitystrea.ms/terminate",
-        "http://activitystrea.ms/tie",
-        "http://activitystrea.ms/unfavorite",
-        "http://activitystrea.ms/unlike",
-        "http://activitystrea.ms/unsatisfy",
-        "http://activitystrea.ms/unsave",
-        "http://activitystrea.ms/unshare",
-        "http://activitystrea.ms/update",
-        "http://activitystrea.ms/use",
-        "http://activitystrea.ms/at",
-        "http://activitystrea.ms/watch",
-        "http://activitystrea.ms/win")
-
-Write-host "`"mbox::mailto:bob@example.org`": {"
-
-        foreach ($item in $list)
-        { 
-            $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
-            $randstr =  $rand.ToString("N1")
-
-            write-host "`"$item`": $randstr," }
-Write-host "    },"
-Write-host "`"mbox::mailto:phil@example.org`": {"
+﻿$OldStyleFileName = "C:\Users\jgedney\Documents\AlignmentsOldstyle.json"
+$NewStyleFileName = "C:\Users\jgedney\Documents\AlignmentsNewstyle.json"
 
 
-        foreach ($item in $list)
-        { 
-            $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
-            $randstr =  $rand.ToString("N1")
+[string[]] $List = @(
+"http://w3id.org/xapi/tla/verbs/certified",
+"https://adlnet.gov/expapi/verbs/passed",
+"https://adlnet.gov/expapi/verbs/failed",
+"https://adlnet.gov/expapi/verbs/completed",
+"https://adlnet.gov/expapi/verbs/initialized",
+"https://adlnet.gov/expapi/verbs/terminated",
+"https://adlnet.gov/expapi/verbs/launched",
+"http://w3id.org/xapi/tla/verbs/waived",
+"http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/verb/satisfied",
+"http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/verb/abandoned"
+)
 
-            write-host "`"$item`": $randstr," }
+[string[]] $HostList = @(
+"mbox::mailto:bob@example.org",
+"mbox::mailto:phil@example.org",
+"mbox::mailto:sally@example.org",
+"mbox::mailto:steve@example.org",
+"mbox::mailto:fred@example.org",
+"mbox::mailto:alice@example.org"
+)
+$lastItem = $List[$List.Count - 1]
+$lastone = $hostlist[$hostlist.Count - 1]
 
-Write-host "    },"
-Write-host "`"mbox::mailto:sally@example.org`": {"
-        foreach ($item in $list)
-        { 
-            $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
-            $randstr =  $rand.ToString("N1")
+if (test-path -Path $OldStyleFileName ){ Remove-Item -Path $OldStyleFileName}
+if (test-path -Path $NewStyleFileName){ Remove-Item -Path $NewStyleFileName}
+New-Item -Path $OldStyleFileName
+New-Item -Path $NewStyleFileName
+ 
+Write-Output "{" | out-file -Filepath $OldStyleFileName -Append 
 
-            write-host "`"$item`": $randstr," }
+foreach ($name in $hostlist){
+    Write-Output "    `"$name`": {" | out-file -Filepath $OldStyleFileName -Append 
+    foreach ($item in $list)
+    { 
+        $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
+        $randstr =  $rand.ToString("N1")
 
-Write-host "    },"
-Write-host "`"mbox::mailto:steve@example.org`": {"
-        foreach ($item in $list)
-        { 
-            $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
-            $randstr =  $rand.ToString("N1")
+        if ($lastItem -ieq $item){
+            Write-Output "        `"$item`": $randstr" | out-file -Filepath $OldStyleFileName -Append 
+        }else{
+            Write-Output "        `"$item`": $randstr," | out-file -Filepath $OldStyleFileName -Append 
+        }
+    }
+    if ($lastone -ieq $name){
+    Write-Output "    }" | out-file -Filepath $OldStyleFileName -Append 
+    }else{
+    Write-Output "    }," | out-file -Filepath $OldStyleFileName -Append 
+    }
+}
+Write-Output "}" | out-file -Filepath $OldStyleFileName -Append 
 
-            write-host "`"$item`": $randstr," }
 
-Write-host "    },"
-Write-host "`"mbox::mailto:fred@example.org`": {"
-        foreach ($item in $list)
-        { 
-            $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
-            $randstr =  $rand.ToString("N1")
 
-            write-host "`"$item`": $randstr," }
+ 
+Write-Output "[" | out-file -Filepath $NewStyleFileName -Append 
 
-Write-host "    },"
-Write-host "`"mbox::mailto:alice@example.org`": {"
-        foreach ($item in $list)
-        { 
-            $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
-            $randstr =  $rand.ToString("N1")
+foreach ($name in $hostlist){
+    Write-Output "    {" | out-file -Filepath $NewStyleFileName -Append 
+    Write-Output "    `"id`":`"$name`"," | out-file -Filepath $NewStyleFileName -Append 
+    Write-Output "    `"type`": `"Agent`"," | out-file -Filepath $NewStyleFileName -Append 
+    Write-Output "    `"alignments`":[" | out-file -Filepath $NewStyleFileName -Append 
+    foreach ($item in $list)
+    { 
+        $rand = (Get-Random -Maximum 9 -Minimum (-9))/10 
+        $randstr =  $rand.ToString("N1")
+        Write-Output "        {" | out-file -Filepath $NewStyleFileName -Append 
+        Write-Output "        `"component`": `"$item`","  | out-file -Filepath $NewStyleFileName -Append 
+        Write-Output "        `"weight`": $randstr" | out-file -Filepath $NewStyleFileName -Append 
+        if ($lastItem -ieq $item){
+            Write-Output "        }" | out-file -Filepath $NewStyleFileName -Append 
+        }else{
+            Write-Output "        }," | out-file -Filepath $NewStyleFileName -Append 
+        }
+    }
+    if ($lastone -ieq $name){
+    Write-Output "    ]}" | out-file -Filepath $NewStyleFileName -Append 
+    }else{
+    Write-Output "    ]}," | out-file -Filepath $NewStyleFileName -Append 
+    }
+}
+Write-Output "]" | out-file -Filepath $NewStyleFileName -Append 
 
-            write-host "`"$item`": $randstr," }
-
-Write-host "    }"
-Write-host "    }"
