@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Objects",
+    "\\Objects\\Level_1",
     "\\Templates"
   ],
-  "SelectedNode": "\\Objects",
+  "SelectedNode": "\\Objects\\Level_1",
   "PreviewInSolutionExplorer": false
 }

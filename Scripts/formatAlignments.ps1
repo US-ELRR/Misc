@@ -1,5 +1,5 @@
-﻿$OldStyleFileName = "C:\Users\jgedney\Documents\AlignmentsOldstyle.json"
-$NewStyleFileName = "C:\Users\jgedney\Documents\AlignmentsNewstyle.json"
+﻿$OldStyleFileName = "C:\Users\jgedney\Documents\AlignmentsOldstylelv3.json"
+$NewStyleFileName = "C:\Users\jgedney\Documents\AlignmentsNewstylelv3.json"
 
 
 [string[]] $List = @(
@@ -11,8 +11,20 @@ $NewStyleFileName = "C:\Users\jgedney\Documents\AlignmentsNewstyle.json"
 "https://adlnet.gov/expapi/verbs/terminated",
 "https://adlnet.gov/expapi/verbs/launched",
 "http://w3id.org/xapi/tla/verbs/waived",
-"http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/verb/satisfied",
-"http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/verb/abandoned"
+"http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/satisfied",
+"http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/abandoned",
+"https://w3id.org/xapi/tla/verbs/assessed",
+"https://w3id.org/xapi/tla/verbs/contextualized",
+"https://w3id.org/xapi/tla/verbs/located",
+"https://w3id.org/xapi/tla/verbs/socialized",
+"https://w3id.org/xapi/tla/verbs/captured",
+"https://w3id.org/xapi/tla/verbs/asserted",
+"https://w3id.org/xapi/tla/verbs/validated",
+"https://w3id.org/xapi/tla/verbs/inferred",
+"https://w3id.org/xapi/tla/verbs/qualified",
+"https://w3id.org/xapi/tla/verbs/conferred",
+"https://w3id.org/xapi/tla/verbs/certified",
+"https://w3id.org/xapi/tla/verbs/verified" 
 )
 
 [string[]] $HostList = @(
