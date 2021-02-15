@@ -1,1430 +1,1329 @@
 {
-  "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72",
-  "@context": "https://w3id.org/xapi/profiles/context",
-  "type": "Profile",
-  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
-  "prefLabel": {
-    "en": "US-ELRRLevel3"
-  },
-  "definition": {
-    "en": "xAPI profile for US-ELRR traffic simulation Level3 verbs"
-  },
-  "seeAlso": "http://github.com/us-elrr",
-  "versions": [
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "generatedAtTime": "2020-11-05T18:40:02.945Z"
-    }
-  ],
-  "author": {
-    "type": "Organization",
-    "name": "US-ELRR",
-    "url": "http://github.com/us-elrr"
-  },
-  "concepts": [
-    {
-      "id": "http://w3id.org/xapi/tla/verbs/certified",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "certified"
-      },
-      "definition": {
-        "en": "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
-      }
+  "profile": {
+    "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72",
+    "@context": "https://w3id.org/xapi/profiles/context",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+      "en": "US-ELRRLevel3"
     },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/passed",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "passed"
-      },
-      "definition": {
-        "en": "Indicates the actor completed an activity to standard"
-      }
+    "definition": {
+      "en": "xAPI profile for US-ELRR traffic simulation Level3 verbs"
     },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/failed",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "failed"
-      },
-      "definition": {
-        "en": "Indicates the actor did not complete an activity to standard"
+    "seeAlso": "http://github.com/us-elrr",
+    "versions": [
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "generatedAtTime": "2020-11-05T18:40:02.945Z"
       }
+    ],
+    "author": {
+      "type": "Organization",
+      "name": "US-ELRR",
+      "url": "http://github.com/us-elrr"
     },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/completed",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "completed"
+    "concepts": [
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/certified",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "certified"
+        },
+        "definition": {
+          "en": "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
+        }
       },
-      "definition": {
-        "en": "Indicates the actor finished or concluded the activity normally"
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/initialized",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "initialized"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/passed",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "passed"
+        },
+        "definition": {
+          "en": "Indicates the actor completed an activity to standard"
+        }
       },
-      "definition": {
-        "en": "Indicates that the activity was started."
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/terminated",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "terminated"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/failed",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "failed"
+        },
+        "definition": {
+          "en": "Indicates the actor did not complete an activity to standard"
+        }
       },
-      "definition": {
-        "en": "Indicates the actor has completed their session normally."
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/launched",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "launched"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/completed",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "completed"
+        },
+        "definition": {
+          "en": "Indicates the actor finished or concluded the activity normally"
+        }
       },
-      "definition": {
-        "en": "Indicates the actor attempted to start up an activity."
-      }
-    },
-    {
-      "id": "http://w3id.org/xapi/tla/verbs/waived",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "waived"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/initialized",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "initialized"
+        },
+        "definition": {
+          "en": "Indicates that the activity was started."
+        }
       },
-      "definition": {
-        "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement indicates the actor may skip the activity."
-      }
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/satisfied",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "satisfied"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/terminated",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "terminated"
+        },
+        "definition": {
+          "en": "Indicates the actor has completed their session normally."
+        }
       },
-      "definition": {
-        "en": "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
-      }
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/abandoned",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "abandoned"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/launched",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "launched"
+        },
+        "definition": {
+          "en": "Indicates the actor attempted to start up an activity."
+        }
       },
-      "definition": {
-        "en": "Indicates that the activity or session was abnormally terminated by a learner's action (or due to a system failure)"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/assessed",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "assessed"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/waived",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "waived"
+        },
+        "definition": {
+          "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement indicates the actor may skip the activity."
+        }
       },
-      "definition": {
-        "en": "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/contextualized",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "contextualized"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/satisfied",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "satisfied"
+        },
+        "definition": {
+          "en": "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
+        }
       },
-      "definition": {
-        "en": "Indicates the user performed a number of connected learning activities that should result in a change in their authoritative learner state"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/located",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "located"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/abandoned",
+        "type": "Verb",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "abandoned"
+        },
+        "definition": {
+          "en": "Indicates that the activity or session was abnormally terminated by a learner's action (or due to a system failure)"
+        }
       },
-      "definition": {
-        "en": "Indicates the actor's competency state needs to be updated based on completed content"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/socialized",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "socialized"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/assessed",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "assessed"
+        },
+        "definition": {
+          "en": "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
+        }
       },
-      "definition": {
-        "en": "Indicates the learner interacted with \"Wild\" (out of network) content in a social environment"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/captured",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "captured"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/contextualized",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "contextualized"
+        },
+        "definition": {
+          "en": "Indicates the user performed a number of connected learning activities that should result in a change in their authoritative learner state"
+        }
       },
-      "definition": {
-        "en": "Indicates the learner interacted with \"Wild\" (out of network) content"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/asserted",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "asserted"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/located",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "located"
+        },
+        "definition": {
+          "en": "Indicates the actor's competency state needs to be updated based on completed content"
+        }
       },
-      "definition": {
-        "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of competence in a given competency"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/validated",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "validated"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/socialized",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "socialized"
+        },
+        "definition": {
+          "en": "Indicates the learner interacted with \"Wild\" (out of network) content in a social environment"
+        }
       },
-      "definition": {
-        "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/inferred",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "inferred"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/captured",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "captured"
+        },
+        "definition": {
+          "en": "Indicates the learner interacted with \"Wild\" (out of network) content"
+        }
       },
-      "definition": {
-        "en": "Indicates an authoritative source changed a learner's competency assertions based on a valid competency framework change"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/qualified",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "qualified"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/asserted",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "asserted"
+        },
+        "definition": {
+          "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of competence in a given competency"
+        }
       },
-      "definition": {
-        "en": "Indicates the learner meets all the requirements for a badge, but hasn't been awarded the badge yet"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/conferred",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "conferred"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/validated",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "validated"
+        },
+        "definition": {
+          "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
+        }
       },
-      "definition": {
-        "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/certified",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "certified"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/inferred",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "inferred"
+        },
+        "definition": {
+          "en": "Indicates an authoritative source changed a learner's competency assertions based on a valid competency framework change"
+        }
       },
-      "definition": {
-        "en": "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
-      }
-    },
-    {
-      "type": "Verb",
-      "id": "https://w3id.org/xapi/tla/verbs/verified",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "verified"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/qualified",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "qualified"
+        },
+        "definition": {
+          "en": "Indicates the learner meets all the requirements for a badge, but hasn't been awarded the badge yet"
+        }
       },
-      "definition": {
-        "en": "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/activity",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "activity"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/conferred",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "conferred"
+        },
+        "definition": {
+          "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
+        }
       },
-      "definition": {
-        "en": "Any generic activity an actor can interact with, that is not an assessment"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/job_duty_gig",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "job/duty/gig"
+      {
+        "type": "Verb",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/verified",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "verified"
+        },
+        "definition": {
+          "en": "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
+        }
       },
-      "definition": {
-        "en": "An outline of the duties and requirements to perform these duties for a given position"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/assessment",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "assessment"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "activity"
+        },
+        "definition": {
+          "en": "Any generic activity an actor can interact with, that is not an assessment"
+        }
       },
-      "definition": {
-        "en": "Any generic exercise that assesses the user's level of competence."
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/competency",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "competency"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/job_duty_gig",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "job/duty/gig"
+        },
+        "definition": {
+          "en": "An outline of the duties and requirements to perform these duties for a given position"
+        }
       },
-      "definition": {
-        "en": "A knowledge, skill, ability, or other object needed to perform in a given task"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/content_set",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "content set"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "assessment"
+        },
+        "definition": {
+          "en": "Any generic exercise that assesses the user's level of competence."
+        }
       },
-      "definition": {
-        "en": "Any generic collection of activities and/or assessment activities"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/badge",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "badge"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "competency"
+        },
+        "definition": {
+          "en": "A knowledge, skill, ability, or other object needed to perform in a given task"
+        }
       },
-      "definition": {
-        "en": "An online badge that is earned after achieving multiple related competencies"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/credential",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "credential"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/content_set",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "content set"
+        },
+        "definition": {
+          "en": "Any generic collection of activities and/or assessment activities"
+        }
       },
-      "definition": {
-        "en": "An authrotative statement that the recipient can perform a task"
-      }
-    },
-    {
-      "id": "https://w3id.org/xapi/tla/extensions/learner",
-      "type": "ContextExtension",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "learner"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/badge",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "badge"
+        },
+        "definition": {
+          "en": "An online badge that is earned after achieving multiple related competencies"
+        }
       },
-      "definition": {
-        "en": "The learner's ID or other identifying indicator"
+      {
+        "type": "ActivityType",
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/credential",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "credential"
+        },
+        "definition": {
+          "en": "An authrotative statement that the recipient can perform a task"
+        }
       },
-      "recommendedVerbs": [
-        "https://w3id.org/xapi/tla/verbs/validated",
-        "https://w3id.org/xapi/tla/verbs/verified",
-        "https://w3id.org/xapi/tla/verbs/conferred"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/learner",
+        "type": "ContextExtension",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "learner"
+        },
+        "definition": {
+          "en": "The learner's ID or other identifying indicator"
+        },
+        "recommendedVerbs": [
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/validated",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/verified",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/conferred"
 
-      ]
-    },
-    {
-      "id": "https://w3id.org/xapi/tla/extensions/confidence",
-      "type": "ContextExtension",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "confidence"
+        ]
       },
-      "definition": {
-        "en": "The measure of a learner's acquisition of a competency according to the asserting authority"
-      },
-      "recommendedVerbs": [
-        "https://w3id.org/xapi/tla/verbs/asserted"
-      ]
-    },
-    {
-      "id": "https://w3id.org/xapi/tla/extensions/evidence",
-      "type": "ContextExtension",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "evidence"
-      },
-      "definition": {
-        "en": "An array of the evidence to support an assertion"
-      },
-      "recommendedVerbs": [
-        "https://w3id.org/xapi/tla/verbs/asserted"
-      ]
-    }
-  ],
-  "templates": [
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "launched"
-      },
-      "definition": {
-        "en": "Indicates the actor attempted to start up an activity"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/launched",
-      "rules": [
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence",
+        "type": "ContextExtension",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "confidence"
         },
-        {
-          "location": "$.context.contextActivities",
-          "presence": "excluded"
+        "definition": {
+          "en": "The measure of a learner's acquisition of a competency according to the asserting authority"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the launched activity"
+        "recommendedVerbs": [
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/asserted"
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence",
+        "type": "ContextExtension",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "evidence"
+        },
+        "definition": {
+          "en": "An array of the evidence to support an assertion"
+        },
+        "recommendedVerbs": [
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/asserted"
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "launched"
+        },
+        "definition": {
+          "en": "Indicates the actor attempted to start up an activity"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/launched",
+        "rules": [
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.context.contextActivities",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a unique piece of meta-data for the launched activity"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "recommended",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment"
+            ]
           }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "recommended",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/Certified",
-      "type": "StatementTemplate",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "certified"
+        ]
       },
-      "definition": {
-        "en": "Certification happened"
-      },
-      "verb": "http://w3id.org/xapi/tla/verbs/certified",
-      "objectStatementRefTemplate": [
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/certified"
-      ],
-      "contextStatementRefTemplate": [
-        "https://w3id.org/xapi/tla/mom/templates/asserted"
-      ],
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
+        "type": "StatementTemplate",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "prefLabel": {
+          "en": "completed"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to a job"
+        "definition": {
+          "en": "Indicates the actor finished or concluded the activity normally"
+        },
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/completed",
+        "rules": [
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "included",
+            "all": [
+              true
+            ]
+          },
+          {
+            "location": "$.result.success",
+            "presence": "included"
+          },
+          {
+            "location": "$.result.duration",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a unique piece of meta-data for the completed object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment"
+            ]
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/passed",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "passed"
         },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
-          ]
+        "definition": {
+          "en": "Indicates the actor completed an activity to standard"
         },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/passed",
+        "rules": [
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.result.score.scaled",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.success",
+            "presence": "included",
+            "all": [
+              true
+            ]
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "included",
+            "all": [
+              true
+            ]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a unique piece of meta-data for the passed activity"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment"
+            ]
           }
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
-      "type": "StatementTemplate",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "prefLabel": {
-        "en": "completed"
+        ]
       },
-      "definition": {
-        "en": "Indicates the actor finished or concluded the activity normally"
-      },
-      "verb": "https://adlnet.gov/expapi/verbs/completed",
-      "rules": [
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/failed",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "failed"
         },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            true
-          ]
+        "definition": {
+          "en": "Indicates the actor did not complete an activity to standard"
         },
-        {
-          "location": "$.result.success",
-          "presence": "included"
-        },
-        {
-          "location": "$.result.duration",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the completed object"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/failed",
+        "rules": [
+          {
+            "location": "$.authority",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.result.score",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.score.scaled",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.success",
+            "presence": "included",
+            "all": [
+              false
+            ]
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "included",
+            "all": [
+              true
+            ]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a unique piece of meta-data for the failed activity"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment"
+            ]
           }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/passed",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "passed"
+        ]
       },
-      "definition": {
-        "en": "Indicates the actor completed an activity to standard"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/passed",
-      "rules": [
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "initialized"
         },
-        {
-          "location": "$.result.score.scaled",
-          "presence": "recommended"
+        "definition": {
+          "en": "Indicates that the activity was started."
         },
-        {
-          "location": "$.result.success",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the passed activity"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/initialized",
+        "rules": [
+          {
+            "location": "$.result.duration",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+            }
+          },
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity"
+            ]
           }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/failed",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "failed"
+        ]
       },
-      "definition": {
-        "en": "Indicates the actor did not complete an activity to standard"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/failed",
-      "rules": [
-        {
-          "location": "$.authority",
-          "presence": "included"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/abandoned",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "abandoned"
         },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
+        "definition": {
+          "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
         },
-        {
-          "location": "$.result.score",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.result.score.scaled",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.result.success",
-          "presence": "included",
-          "all": [
-            false
-          ]
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the failed activity"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "https://w3id.org/xapi/adl/verbs/abandoned",
+        "rules": [
+          {
+            "location": "$.result.duration",
+            "presence": "recommended",
+            "scopeNote": {
+              "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
+            }
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "included",
+            "all": [
+              false
+            ]
+          },
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity"
+            ]
           }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "initialized"
+        ]
       },
-      "definition": {
-        "en": "Indicates that the activity was started."
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/initialized",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "excluded"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "terminated"
         },
-        {
-          "location": "$.result.completion",
-          "presence": "excluded"
+        "definition": {
+          "en": "Indicates the actor has completed their session normally"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/terminated",
+        "rules": [
+          {
+            "location": "$.result.duration",
+            "presence": "recommended",
+            "scopeNote": {
+              "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
+            }
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity"
+            ]
           }
-        },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "terminated"
+        ]
       },
-      "definition": {
-        "en": "Indicates the actor has completed their session normally"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/terminated",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "recommended",
-          "scopeNote": {
-            "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/waived",
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "waived"
+        },
+        "definition": {
+          "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor"
+        },
+        "verb": "https://w3id.org/xapi/adl/verbs/waived",
+        "rules": [
+          {
+            "location": "$.object.objectType",
+            "presence": "included",
+            "all": [
+              "Activity"
+            ]
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "Each ObjectID needs to map to a unique piece of meta-data for the recommended object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/assessed",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "assessed"
         },
-        {
-          "location": "$.result.completion",
-          "presence": "included"
+        "definition": {
+          "en": "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
         },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/assessed",
+        "rules": [
+          {
+            "location": "$.result.duration",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.completion",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.result.score.scaled",
+            "presence": "recommended"
+          },
+          {
+            "location": "$.result.success",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/contextualized",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "contextualized"
         },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/abandoned",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "abandoned"
-      },
-      "definition": {
-        "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/adl/verbs/abandoned",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "recommended",
-          "scopeNote": {
-            "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
+        "definition": {
+          "en": "Indicates the user performed several connected learning activities that should result in a change in their authoritative learner state"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/contextualized",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "all": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/located",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "located"
         },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            false
-          ]
+        "definition": {
+          "en": "Indicates the actor's competency state needs to be updated based on completed content changes in the Competency Framework"
         },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/located",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "all": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/socialized",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "socialized"
         },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "terminated"
-      },
-      "definition": {
-        "en": "Indicates the actor has completed their session normally"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/terminated",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "recommended",
-          "scopeNote": {
-            "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
+        "definition": {
+          "en": "Indicates the learner interacted with \"Wild\" (unscheduled) content in a social environment"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/socialized",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point to metadata about an activity or activity cluster"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/content_set",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity"
+            ]
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/captured",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "captured"
         },
-        {
-          "location": "$.result.completion",
-          "presence": "included"
+        "definition": {
+          "en": "Indicates the learner interacted with \"Wild\" (out of network) content"
         },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/captured",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/content_set",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/assessment",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/activity"
+            ]
           }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/waived",
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "waived"
+        ]
       },
-      "definition": {
-        "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor"
-      },
-      "verb": "https://w3id.org/xapi/adl/verbs/waived",
-      "rules": [
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/asserted",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "asserted"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the recommended object"
+        "definition": {
+          "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of competence in a given competency"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/asserted",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be the id of the xAPI statement(s) that resulted in this statement"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
           }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/assessed",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "assessed"
+        ]
       },
-      "definition": {
-        "en": "Indicates the actor completed assessments in a way that will cause a change in their authoritative learner state"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/assessed",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "recommended"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/validated",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "validated"
         },
-        {
-          "location": "$.result.completion",
-          "presence": "excluded"
+        "definition": {
+          "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
         },
-        {
-          "location": "$.result.score.scaled",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.result.success",
-          "presence": "included"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/validated",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI asserted statement was just validated"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/learner']",
+            "presence": "included"
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/inferred",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "inferred"
         },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
+        "definition": {
+          "en": "Indicates an authoritative source changed a learner's competency assertions based on a valid competency framework change"
         },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/inferred",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point a Competency Object"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
           }
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/contextualized",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "contextualized"
+        ]
       },
-      "definition": {
-        "en": "Indicates the user performed several connected learning activities that should result in a change in their authoritative learner state"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/contextualized",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/qualified",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "qualified"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
+        "definition": {
+          "en": "Indicates the learner meets all the requirements for a badge, but hasn't been awarded the badge yet"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/qualified",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point to a badge"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/badge"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/certified",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "certified"
         },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "all": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
+        "definition": {
+          "en": "Indicates the learner was accredited by an authoritative source to perform a given job or task"
         },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/certified",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point to a job"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/job_duty_gig"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
           }
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/located",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "located"
+        ]
       },
-      "definition": {
-        "en": "Indicates the actor's competency state needs to be updated based on completed content changes in the Competency Framework"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/located",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/verified",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "verified"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
+        "definition": {
+          "en": "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/verified",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included"
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/competency"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/learner']",
+            "presence": "included"
           }
+        ]
+      },
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/conferred",
+        "type": "StatementTemplate",
+        "prefLabel": {
+          "en": "conferred"
         },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "all": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
+        "definition": {
+          "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
         },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "verb": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/conferred",
+        "rules": [
+          {
+            "location": "$.result",
+            "presence": "excluded"
+          },
+          {
+            "location": "$.object.id",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point to a competency or a credential"
+            }
+          },
+          {
+            "location": "$.object.definition.type",
+            "presence": "included",
+            "any": [
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/badge",
+              "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/activity-type/credential"
+            ]
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/evidence']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+            }
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/confidence']",
+            "presence": "included"
+          },
+          {
+            "location": "$.context.extensions['http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/extension/learner']",
+            "presence": "included",
+            "scopeNote": {
+              "en": "This should point to the learner who was conferred the competency or credential"
+            }
           }
+        ]
+      }
+    ],
+    "patterns": [
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/patterns/completed_session",
+        "type": "Pattern",
+        "primary": true,
+        "definition": {
+          "en": "This pattern describes the sequence of statements sent over the an entire course registration."
         },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/socialized",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "socialized"
+        "prefLabel": {
+          "en": "completed session"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "sequence": [
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated"
+        ]
       },
-      "definition": {
-        "en": "Indicates the learner interacted with \"Wild\" (unscheduled) content in a social environment"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/patterns/passed_session",
+        "type": "Pattern",
+        "prefLabel": {
+          "en": "completed session - passed"
+        },
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "sequence": [
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/passed",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated"
+        ]
       },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/socialized",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
+      {
+        "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/patterns/failed_session",
+        "type": "Pattern",
+        "prefLabel": {
+          "en": "completed session - failed"
         },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to metadata about an activity or activity cluster"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/content_set",
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/captured",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "captured"
-      },
-      "definition": {
-        "en": "Indicates the learner interacted with \"Wild\" (out of network) content"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/captured",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/content_set",
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/asserted",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "asserted"
-      },
-      "definition": {
-        "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of competence in a given competency"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/asserted",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be the id of the xAPI statement(s) that resulted in this statement"
-          }
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/validated",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "validated"
-      },
-      "definition": {
-        "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/validated",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI asserted statement was just validated"
-          }
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/inferred",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "inferred"
-      },
-      "definition": {
-        "en": "Indicates an authoritative source changed a learner's competency assertions based on a valid competency framework change"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/inferred",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point a Competency Object"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
-          }
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/qualified",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "qualified"
-      },
-      "definition": {
-        "en": "Indicates the learner meets all the requirements for a badge, but hasn't been awarded the badge yet"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/qualified",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to a badge"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/badge"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
-          }
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/certified",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "certified"
-      },
-      "definition": {
-        "en": "Indicates the learner was accredited by an authoritative source to perform a given job or task"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/certified",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to a job"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
-          }
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/verified",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "verified"
-      },
-      "definition": {
-        "en": "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/verified",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included"
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/competency"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included"
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
-          "presence": "included"
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/conferred",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "conferred"
-      },
-      "definition": {
-        "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "verb": "https://w3id.org/xapi/tla/verbs/conferred",
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to a competency or a credential"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/badge",
-            "https://w3id.org/xapi/tla/activity-types/credential"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
-          }
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-          "presence": "included"
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to the learner who was conferred the competency or credential"
-          }
-        }
-      ]
-    }
-  ],
-  "patterns": [
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/patterns/completed_session",
-      "type": "Pattern",
-      "primary": true,
-      "definition": {
-        "en": "This pattern describes the sequence of statements sent over the an entire course registration."
-      },
-      "prefLabel": {
-        "en": "completed session"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "sequence": [
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated"
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/patterns/passed_session",
-      "type": "Pattern",
-      "prefLabel": {
-        "en": "completed session - passed"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "sequence": [
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/passed",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated"
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/patterns/failed_session",
-      "type": "Pattern",
-      "prefLabel": {
-        "en": "completed session - failed"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
-      "sequence": [
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/failed",
-        "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated"
-      ]
-    }
+        "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+        "sequence": [
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/launched",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/initialized",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/completed",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/failed",
+          "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/templates/terminated"
+        ]
+      }
 
-  ]
+    ]
+  }
 }

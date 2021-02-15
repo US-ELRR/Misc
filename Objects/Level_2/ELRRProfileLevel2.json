@@ -23,7 +23,7 @@
   },
   "concepts": [
     {
-      "id": "http://w3id.org/xapi/tla/verbs/certified",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/certified",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -34,7 +34,18 @@
       }
     },
     {
-      "id": "https://adlnet.gov/expapi/verbs/passed",
+      "type": "Verb",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/asserted",
+      "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
+      "prefLabel": {
+        "en": "asserted"
+      },
+      "definition": {
+        "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of?competence in a given?competency"
+      }
+    },
+    {
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/passed",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -45,7 +56,7 @@
       }
     },
     {
-      "id": "https://adlnet.gov/expapi/verbs/failed",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/failed",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -56,7 +67,7 @@
       }
     },
     {
-      "id": "https://adlnet.gov/expapi/verbs/completed",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/completed",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -67,7 +78,7 @@
       }
     },
     {
-      "id": "https://adlnet.gov/expapi/verbs/initialized",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/initialized",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -78,7 +89,7 @@
       }
     },
     {
-      "id": "https://adlnet.gov/expapi/verbs/terminated",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/terminated",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -89,7 +100,7 @@
       }
     },
     {
-      "id": "https://adlnet.gov/expapi/verbs/launched",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/launched",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -100,7 +111,7 @@
       }
     },
     {
-      "id": "http://w3id.org/xapi/tla/verbs/waived",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/waived",
       "type": "Verb",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -134,7 +145,7 @@
     },
     {
       "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/activity",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
         "en": "activity"
@@ -145,7 +156,7 @@
     },
     {
       "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/job_duty_gig",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/job_duty_gig",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
         "en": "job/duty/gig"
@@ -156,7 +167,7 @@
     },
     {
       "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/assessment",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
         "en": "assessment"
@@ -167,7 +178,7 @@
     },
     {
       "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/competency",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/competency",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
         "en": "competency"
@@ -177,7 +188,7 @@
       }
     },
     {
-      "id": "https://w3id.org/xapi/tla/extensions/evidence",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/extensions/evidence",
       "type": "ContextExtension",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -193,7 +204,7 @@
   ],
   "templates": [
     {
-      "id": "https://w3id.org/xapi/tla#launched",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/templates/launched",
       "type": "StatementTemplate",
       "prefLabel": {
         "en": "launched"
@@ -202,7 +213,7 @@
         "en": "Indicates the actor attempted to start up an activity"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/launched",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/launched",
       "rules": [
         {
           "location": "$.object.objectType",
@@ -226,14 +237,14 @@
           "location": "$.object.definition.type",
           "presence": "recommended",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment"
           ]
         }
       ]
     },
     {
-      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/templates/Certified",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/templates/certified",
       "type": "StatementTemplate",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "prefLabel": {
@@ -242,13 +253,7 @@
       "definition": {
         "en": "Certification happened"
       },
-      "verb": "http://w3id.org/xapi/tla/verbs/certified",
-      "objectStatementRefTemplate": [
-        "https://w3id.org/xapi/tla#certified"
-      ],
-      "contextStatementRefTemplate": [
-        "https://w3id.org/xapi/tla/mom/templates/asserted"
-      ],
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/certified",
       "rules": [
         {
           "location": "$.result",
@@ -265,11 +270,11 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/job_duty_gig"
           ]
         },
         {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
+          "location": "$.context.extensions['http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/extensions/evidence']",
           "presence": "included",
           "scopeNote": {
             "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
@@ -287,7 +292,7 @@
       "definition": {
         "en": "Indicates the actor finished or concluded the activity normally"
       },
-      "verb": "https://adlnet.gov/expapi/verbs/completed",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/completed",
       "rules": [
         {
           "location": "$.object.objectType",
@@ -322,8 +327,8 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment"
           ]
         }
       ]
@@ -338,7 +343,7 @@
         "en": "Indicates the actor completed an activity to standard"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/passed",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/passed",
       "rules": [
         {
           "location": "$.object.objectType",
@@ -376,7 +381,7 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment"
           ]
         }
       ]
@@ -391,7 +396,7 @@
         "en": "Indicates the actor did not complete an activity to standard"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/failed",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/failed",
       "rules": [
         {
           "location": "$.authority",
@@ -437,7 +442,7 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment"
           ]
         }
       ]
@@ -452,7 +457,7 @@
         "en": "Indicates that the activity was started."
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/initialized",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/initialized",
       "rules": [
         {
           "location": "$.result.duration",
@@ -480,55 +485,8 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/templates/terminated",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "terminated"
-      },
-      "definition": {
-        "en": "Indicates the actor has completed their session normally"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/terminated",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "recommended",
-          "scopeNote": {
-            "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
-          }
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included"
-        },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity"
           ]
         }
       ]
@@ -543,7 +501,7 @@
         "en": "Indicates that the AU session was abnormally terminated by a learner's action (or due to a system failure)"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://w3id.org/xapi/adl/verbs/abandoned",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/abandoned",
       "rules": [
         {
           "location": "$.result.duration",
@@ -577,8 +535,8 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity"
           ]
         }
       ]
@@ -593,7 +551,7 @@
         "en": "Indicates the actor has completed their session normally"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/terminated",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/terminated",
       "rules": [
         {
           "location": "$.result.duration",
@@ -624,14 +582,14 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity"
           ]
         }
       ]
     },
     {
-      "id": "https://w3id.org/xapi/tla/v0.10/templates#waived",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/templates/waived",
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "type": "StatementTemplate",
       "prefLabel": {
@@ -640,7 +598,7 @@
       "definition": {
         "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor"
       },
-      "verb": "https://w3id.org/xapi/adl/verbs/waived",
+      "verb": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/waived",
       "rules": [
         {
           "location": "$.object.objectType",
@@ -660,9 +618,9 @@
           "location": "$.object.definition.type",
           "presence": "included",
           "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/competency"
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/activity",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/assessment",
+            "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/activity-types/competency"
           ]
         }
       ]
@@ -670,7 +628,7 @@
   ],
   "patterns": [
     {
-      "id": "https://w3id.org/xapi/tla#completed_session",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/pattern/ompleted_session",
       "type": "Pattern",
       "primary": true,
       "definition": {
@@ -681,42 +639,41 @@
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "sequence": [
-        "https://w3id.org/xapi/tla#launched",
-        "https://w3id.org/xapi/tla#initialized",
-        "https://w3id.org/xapi/tla#completed",
-        "https://w3id.org/xapi/tla#terminated"
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/launched",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/initialized",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/completed",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/terminated"
       ]
     },
     {
-      "id": "https://w3id.org/xapi/tla#passed_session",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/pattern/passed_session",
       "type": "Pattern",
       "prefLabel": {
         "en": "completed session - passed"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "sequence": [
-        "https://w3id.org/xapi/tla#launched",
-        "https://w3id.org/xapi/tla#initialized",
-        "https://w3id.org/xapi/tla#completed",
-        "https://w3id.org/xapi/tla#passed",
-        "https://w3id.org/xapi/tla#terminated"
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/launched",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/initialized",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/completed",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/passed",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/terminated"
       ]
     },
     {
-      "id": "https://w3id.org/xapi/tla#failed_session",
+      "id": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/pattern/failed_session",
       "type": "Pattern",
       "prefLabel": {
         "en": "completed session - failed"
       },
       "inScheme": "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/v/1",
       "sequence": [
-        "https://w3id.org/xapi/tla#launched",
-        "https://w3id.org/xapi/tla#initialized",
-        "https://w3id.org/xapi/tla#completed",
-        "https://w3id.org/xapi/tla#failed",
-        "https://w3id.org/xapi/tla#terminated"
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/launched",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/initialized",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/completed",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/failed",
+        "http://profiles.usalearning.net/xapi/b18cc8dc-0684-4cea-97ee-5e49331f4f6b/verb/terminated"
       ]
     }
-
   ]
 }

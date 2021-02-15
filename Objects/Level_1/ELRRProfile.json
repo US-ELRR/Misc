@@ -1,4 +1,5 @@
 {
+
   "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1",
   "@context": "https://w3id.org/xapi/profiles/context",
   "type": "Profile",
@@ -182,7 +183,7 @@
   ],
   "templates": [
     {
-      "id": "https://w3id.org/xapi/tla#launched",
+      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templates/launched",
       "type": "StatementTemplate",
       "prefLabel": {
         "en": "launched"
@@ -232,12 +233,6 @@
         "en": "Certification happened"
       },
       "verb": "http://w3id.org/xapi/tla/verbs/certified",
-      "objectStatementRefTemplate": [
-        "https://w3id.org/xapi/tla#certified"
-      ],
-      "contextStatementRefTemplate": [
-        "https://w3id.org/xapi/tla/mom/templates/asserted"
-      ],
       "rules": [
         {
           "location": "$.result",
