@@ -186,363 +186,379 @@
       ]
     }
   ],
-  "templates": [
-    {
-      "id": "https://w3id.org/xapi/tla#launched",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "launched"
-      },
-      "definition": {
-        "en": "Indicates the actor attempted to start up an activity"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/launched",
-      "rules": [
+    "templates": [
         {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.context.contextActivities",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the launched activity"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "recommended",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templates/Certified",
-      "type": "StatementTemplate",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "prefLabel": {
-        "en": "certified"
-      },
-      "definition": {
-        "en": "Certification happened"
-      },
-      "verb": "http://w3id.org/xapi/tla/verbs/certified",
-      "objectStatementRefTemplate": [
-        "https://w3id.org/xapi/tla#certified"
-      ],
-      "contextStatementRefTemplate": [
-        "https://w3id.org/xapi/tla/mom/templates/asserted"
-      ],
-      "rules": [
-        {
-          "location": "$.result",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should point to a job"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
-          ]
-        },
-        {
-          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-          "presence": "included",
-          "scopeNote": {
-            "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
-          }
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templates/completed",
-      "type": "StatementTemplate",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "prefLabel": {
-        "en": "completed"
-      },
-      "definition": {
-        "en": "Indicates the actor finished or concluded the activity normally"
-      },
-      "verb": "https://adlnet.gov/expapi/verbs/completed",
-      "rules": [
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.result.success",
-          "presence": "included"
-        },
-        {
-          "location": "$.result.duration",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the completed object"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/activity",
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templates/passed",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "passed"
-      },
-      "definition": {
-        "en": "Indicates the actor completed an activity to standard"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/passed",
-      "rules": [
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.result.score.scaled",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.result.success",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the passed activity"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templates/failed",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "failed"
-      },
-      "definition": {
-        "en": "Indicates the actor did not complete an activity to standard"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/failed",
-      "rules": [
-        {
-          "location": "$.authority",
-          "presence": "included"
-        },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.result.score",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.result.score.scaled",
-          "presence": "recommended"
-        },
-        {
-          "location": "$.result.success",
-          "presence": "included",
-          "all": [
-            false
-          ]
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included",
-          "all": [
-            true
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a unique piece of meta-data for the failed activity"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templatesinitialized",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "initialized"
-      },
-      "definition": {
-        "en": "Indicates that the activity was started."
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/initialized",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "excluded"
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
-          }
-        },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/templatesterminated",
-      "type": "StatementTemplate",
-      "prefLabel": {
-        "en": "terminated"
-      },
-      "definition": {
-        "en": "Indicates the actor has completed their session normally"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/1",
-      "verb": "https://adlnet.gov/expapi/verbs/terminated",
-      "rules": [
-        {
-          "location": "$.result.duration",
-          "presence": "recommended",
-          "scopeNote": {
-            "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
-          }
-        },
-        {
-          "location": "$.result.completion",
-          "presence": "included"
-        },
-        {
-          "location": "$.object.objectType",
-          "presence": "included",
-          "all": [
-            "Activity"
-          ]
-        },
-        {
-          "location": "$.object.id",
-          "presence": "included",
-          "scopeNote": {
-            "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
-          }
-        },
-        {
-          "location": "$.object.definition.type",
-          "presence": "included",
-          "any": [
-            "https://w3id.org/xapi/tla/activity-types/assessment",
-            "https://w3id.org/xapi/tla/activity-types/activity"
-          ]
-        }
-      ]
-    },
-    {
-      ]
-    },
-    {
-
-            "id": "https://w3id.org/xapi/tla/templates/waived",
+            "id": "https://w3id.org/xapi/tla#launched",
             "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
             "prefLabel": {
-                "en": "Waived"
+                "en": "launched"
             },
             "definition": {
-                "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor\n"
+                "en": "Indicates the actor attempted to start up an activity"
             },
-            "verb": "http://w3id.org/xapi/tla/verbs/waived"
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://adlnet.gov/expapi/verbs/launched",
+            "rules": [
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.context.contextActivities",
+                    "presence": "excluded"
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a unique piece of meta-data for the launched activity"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "recommended",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/activity",
+                        "https://w3id.org/xapi/tla/activity-types/assessment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#certified",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "certified"
+            },
+            "definition": {
+                "en": "Indicates the learner was accredited by an authoritative source to perform a given job or task"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://w3id.org/xapi/tla/verbs/certified",
+            "rules": [
+                {
+                    "location": "$.result",
+                    "presence": "excluded"
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "This should point to a job"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/job_duty_gig"
+                    ]
+                },
+                {
+                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "This should be a pointer to the xAPI statement(s) that resulted in this statement"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#completed",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "completed"
+            },
+            "definition": {
+                "en": "Indicates the actor finished or concluded the activity normally"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://adlnet.gov/expapi/verbs/completed",
+            "rules": [
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.result.completion",
+                    "presence": "included",
+                    "all": [
+                        true
+                    ]
+                },
+                {
+                    "location": "$.result.success",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.result.duration",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a unique piece of meta-data for the completed object"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/activity",
+                        "https://w3id.org/xapi/tla/activity-types/assessment"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "https://w3id.org/xapi/tla#passed",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "passed"
+            },
+            "definition": {
+                "en": "Indicates the actor completed an activity to standard"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://adlnet.gov/expapi/verbs/passed",
+            "rules": [
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.result.score.scaled",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.result.success",
+                    "presence": "included",
+                    "all": [
+                        true
+                    ]
+                },
+                {
+                    "location": "$.result.completion",
+                    "presence": "included",
+                    "all": [
+                        true
+                    ]
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a unique piece of meta-data for the passed activity"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/assessment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#failed",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "failed"
+            },
+            "definition": {
+                "en": "Indicates the actor did not complete an activity to standard"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://adlnet.gov/expapi/verbs/failed",
+            "rules": [
+                {
+                    "location": "$.authority",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.result.score",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.result.score.scaled",
+                    "presence": "recommended"
+                },
+                {
+                    "location": "$.result.success",
+                    "presence": "included",
+                    "all": [
+                        false
+                    ]
+                },
+                {
+                    "location": "$.result.completion",
+                    "presence": "included",
+                    "all": [
+                        true
+                    ]
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a unique piece of meta-data for the failed activity"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/assessment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#terminated",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "terminated"
+            },
+            "definition": {
+                "en": "Indicates the actor has completed their session normally"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://adlnet.gov/expapi/verbs/terminated",
+            "rules": [
+                {
+                    "location": "$.result.duration",
+                    "presence": "recommended",
+                    "scopeNote": {
+                        "en": "The duration property should, at a minimum, be set as the total session time, calculated as the time between the 'Launched' statement and the last statement (of any kind) issued by the AU. The LMS SHOULD also use other (LMS specific) methods (if available) to determine if the total session time was longer"
+                    }
+                },
+                {
+                    "location": "$.result.completion",
+                    "presence": "included"
+                },
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/assessment",
+                        "https://w3id.org/xapi/tla/activity-types/activity"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#initialized",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "initialized"
+            },
+            "definition": {
+                "en": "Indicates that the activity was started."
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "verb": "https://adlnet.gov/expapi/verbs/initialized",
+            "rules": [
+                {
+                    "location": "$.result.duration",
+                    "presence": "excluded"
+                },
+                {
+                    "location": "$.result.completion",
+                    "presence": "excluded"
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a competency or other unique piece of meta-data"
+                    }
+                },
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/assessment",
+                        "https://w3id.org/xapi/tla/activity-types/activity"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla/v0.10/templates#waived",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "type": "StatementTemplate",
+            "prefLabel": {
+                "en": "waived"
+            },
+            "definition": {
+                "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement is used to indicate that the activity may be skipped by the actor"
+            },
+            "verb": "https://w3id.org/xapi/adl/verbs/waived",
+            "rules": [
+                {
+                    "location": "$.object.objectType",
+                    "presence": "included",
+                    "all": [
+                        "Activity"
+                    ]
+                },
+                {
+                    "location": "$.object.id",
+                    "presence": "included",
+                    "scopeNote": {
+                        "en": "Each ObjectID needs to map to a unique piece of meta-data for the recommended object"
+                    }
+                },
+                {
+                    "location": "$.object.definition.type",
+                    "presence": "included",
+                    "any": [
+                        "https://w3id.org/xapi/tla/activity-types/activity",
+                        "https://w3id.org/xapi/tla/activity-types/assessment",
+                        "https://w3id.org/xapi/tla/activity-types/competency"
+                    ]
+                }
+            ]
         }
     ],
   "patterns": [
