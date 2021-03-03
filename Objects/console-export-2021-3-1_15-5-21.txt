@@ -1,0 +1,51 @@
+ [goog.net.WebSocket] The WebSocket on ws://localhost:9091/figwheel-connect?fwprocess=9250e0&fwbuild=dev&fwsid=a2ab14ce-ee76-4e5c-8638-02b0bc1243d6&fwsname=Johnson closed. console.js:203:20
+ [goog.net.WebSocket] The WebSocket disconnected unexpectedly: undefined console.js:203:20
+ [goog.net.WebSocket] Seconds until next reconnect attempt: 1 console.js:203:20
+Installing CLJS DevTools 0.9.10 and enabling features :formatters :hints :async util.cljs:187:63
+Feature :formatters cannot be installed. Unsupported Javascript context: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0. util.cljs:248:14
+CLJS DevTools: some custom formatters were not rendered.
+https://github.com/binaryage/cljs-devtools/blob/master/docs/faq.md#why-some-custom-formatters-were-not-rendered util.cljs:136:14
+Download the React DevTools for a better development experience: https://fb.me/react-devtools react-dom.inc.js:17212:17
+GEThttp://localhost:9091/favicon.ico
+[HTTP/1.1 404 Not Found 0ms]
+
+ [goog.net.WebSocket] Opening the WebSocket on ws://localhost:9091/figwheel-connect?fwprocess=089348&fwbuild=dev&fwsid=a2ab14ce-ee76-4e5c-8638-02b0bc1243d6&fwsname=Johnson console.js:203:20
+ [goog.net.WebSocket] WebSocket opened on ws://localhost:9091/figwheel-connect?fwprocess=089348&fwbuild=dev&fwsid=a2ab14ce-ee76-4e5c-8638-02b0bc1243d6&fwsname=Johnson console.js:203:20
+ [Figwheel REPL] Session ID: a2ab14ce-ee76-4e5c-8638-02b0bc1243d6 console.js:203:20
+ [Figwheel REPL] Session Name: Johnson console.js:203:20
+This site appears to use a scroll-linked positioning effect. This may not work well with asynchronous panning; see https://developer.mozilla.org/docs/Mozilla/Performance/ScrollLinkedEffects for further details and to join the discussion on related tools and features! localhost:9091
+XHRGEThttp://localhost:9090/api/v1/download-url?url=
+[HTTP/1.1 400 Bad Request 90ms]
+
+XHRPOSThttp://localhost:9090/api/v1/generate
+[HTTP/1.1 500 Internal Server Error 173ms]
+
+Uncaught Error: No matching clause: 500
+    onload form.cljs:53
+    form form.js:92
+    React 41
+    reagent$dom$render_comp dom.cljs:20
+    cljs$core$IFn$_invoke$arity$3 dom.cljs:44
+    reagent$dom$render dom.cljs:31
+    cljs$core$IFn$_invoke$arity$2 dom.cljs:39
+    reagent$dom$render dom.cljs:31
+    cljs$core$IFn$_invoke$arity$2 core.cljs:74
+    reagent$core$render core.cljs:65
+    datasim_ui$core$run core.cljs:13
+    <anonymous> core.cljs:16
+form.cljs:53:42
+    onload form.cljs:53
+    (Async: EventHandlerNonNull)
+    form form.js:92
+    React 18
+    dispatchInteractiveEvent self-hosted:1223
+    React 23
+    reagent$dom$render_comp dom.cljs:20
+    cljs$core$IFn$_invoke$arity$3 dom.cljs:44
+    reagent$dom$render dom.cljs:31
+    cljs$core$IFn$_invoke$arity$2 dom.cljs:39
+    reagent$dom$render dom.cljs:31
+    cljs$core$IFn$_invoke$arity$2 core.cljs:74
+    reagent$core$render core.cljs:65
+    datasim_ui$core$run core.cljs:13
+    <anonymous> core.cljs:16
