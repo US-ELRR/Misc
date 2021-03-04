@@ -1,16 +1,15 @@
 {
-
-  "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1",
-  "@context": "https://w3id.org/xapi/profiles/context",
-  "type": "Profile",
-  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
-  "prefLabel": {
-    "en": "US-ELRR"
-  },
-  "definition": {
-    "en": "xAPI profile for US-ELRR traffic simulation"
-  },
-  "seeAlso": "http://github.com/us-elrr",
+    "@context": "https://w3id.org/xapi/profiles/context",
+    "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1",
+    "type": "Profile",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "prefLabel": {
+        "en": "US-ELRR"
+    },
+    "definition": {
+        "en": "xAPI profile for US-ELRR traffic simulation"
+    },
+    "seeAlso": "http://github.com/us-elrr",
     "versions": [
         {
             "id": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
@@ -22,170 +21,193 @@
             "generatedAtTime": "2020-11-05T18:40:02.945Z"
         }
     ],
-  "author": {
-    "type": "Organization",
-    "name": "US-ELRR",
-    "url": "http://github.com/us-elrr"
-  },
-  "concepts": [
-    {
-      "id": "http://w3id.org/xapi/tla/verbs/certified",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "certified"
-      },
-      "definition": {
-        "en": "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
-      }
+    "author": {
+        "type": "Organization",
+        "name": "US-ELRR",
+        "url": "http://github.com/us-elrr"
     },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/passed",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "passed"
-      },
-      "definition": {
-        "en": "Indicates the actor completed an activity to standard"
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/failed",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "failed"
-      },
-      "definition": {
-        "en": "Indicates the actor did not complete an activity to standard"
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/completed",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "completed"
-      },
-      "definition": {
-        "en": "Indicates the actor finished or concluded the activity normally"
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/initialized",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "initialized"
-      },
-      "definition": {
-        "en": "Indicates that the activity was started."
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/terminated",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "terminated"
-      },
-      "definition": {
-        "en": "Indicates the actor has completed their session normally."
-      }
-    },
-    {
-      "id": "https://adlnet.gov/expapi/verbs/launched",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "launched"
-      },
-      "definition": {
-        "en": "Indicates the actor attempted to start up an activity."
-      }
-    },
-    {
-      "id": "http://w3id.org/xapi/tla/verbs/waived",
-      "type": "Verb",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "waived"
-      },
-      "definition": {
-        "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement indicates the actor may skip the activity."
-      }
-    },
-    {
-        "id": "https://w3id.org/xapi/adl/verbs/satisfied",
-        "type": "Verb",
-        "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-        "prefLabel": {
-            "en": "satisfied"
+    "concepts": [
+        {
+            "id": "http://w3id.org/xapi/tla/verbs/certified",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "certified"
+            },
+            "definition": {
+                "en": "Indicates the learner received an accreditation by an authoritative source to perform a given job or task"
+            }
         },
-        "definition": {
-            "en": "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
-        }
-    },
-    {
-        "id": "https://w3id.org/xapi/adl/verbs/abandoned",
-        "type": "Verb",
-        "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-        "prefLabel": {
-            "en": "abandoned"
+        {
+            "id": "https://adlnet.gov/expapi/verbs/passed",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "passed"
+            },
+            "definition": {
+                "en": "Indicates the actor completed an activity to standard"
+            }
         },
-        "definition": {
-            "en": "Indicates that the activity or session was abnormally terminated by a learner's action (or due to a system failure)"
+        {
+            "id": "https://adlnet.gov/expapi/verbs/failed",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "failed"
+            },
+            "definition": {
+                "en": "Indicates the actor did not complete an activity to standard"
+            }
+        },
+        {
+            "id": "https://adlnet.gov/expapi/verbs/completed",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "completed"
+            },
+            "definition": {
+                "en": "Indicates the actor finished or concluded the activity normally"
+            }
+        },
+        {
+            "id": "https://adlnet.gov/expapi/verbs/initialized",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "initialized"
+            },
+            "definition": {
+                "en": "Indicates that the activity was started."
+            }
+        },
+        {
+            "id": "https://adlnet.gov/expapi/verbs/terminated",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "terminated"
+            },
+            "definition": {
+                "en": "Indicates the actor has completed their session normally."
+            }
+        },
+        {
+            "id": "https://adlnet.gov/expapi/verbs/launched",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "launched"
+            },
+            "definition": {
+                "en": "Indicates the actor attempted to start up an activity."
+            }
+        },
+        {
+            "id": "http://w3id.org/xapi/tla/verbs/waived",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "waived"
+            },
+            "definition": {
+                "en": "Indicates that the learning activity requirements were met by means other than completing the activity. A waived statement indicates the actor may skip the activity."
+            }
+        },
+        {
+            "id": "https://w3id.org/xapi/adl/verbs/satisfied",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "satisfied"
+            },
+            "definition": {
+                "en": "Indicates that the authority or activity provider determined the actor has fulfilled the criteria of the object or activity by means other than completing the activity"
+            }
+        },
+        {
+            "id": "https://w3id.org/xapi/adl/verbs/abandoned",
+            "type": "Verb",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "abandoned"
+            },
+            "definition": {
+                "en": "Indicates that the activity or session was abnormally terminated by a learner's action (or due to a system failure)"
+            }
+        },
+        {
+            "type": "Verb",
+            "id": "https://w3id.org/xapi/tla/verbs/asserted",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "asserted"
+            },
+            "definition": {
+                "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of?competence in a given?competency"
+            }
+        },
+
+        {
+            "type": "ActivityType",
+            "id": "https://w3id.org/xapi/tla/activity-types/activity",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "activity"
+            },
+            "definition": {
+                "en": "Any generic activity an actor can interact with, that is not an assessment"
+            }
+        },
+        {
+            "type": "ActivityType",
+            "id": "https://w3id.org/xapi/tla/activity-types/job_duty_gig",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "job/duty/gig"
+            },
+            "definition": {
+                "en": "An outline of the duties and requirements to perform these duties for a given position"
+            }
+        },
+        {
+            "type": "ActivityType",
+            "id": "https://w3id.org/xapi/tla/activity-types/assessment",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "assessment"
+            },
+            "definition": {
+                "en": "Any generic exercise that assesses the user's level of competence."
+            }
+        },
+        {
+            "type": "ActivityType",
+            "id": "https://w3id.org/xapi/tla/activity-types/competency",
+            "inScheme": "https://w3id.org/xapi/tla/v0.10",
+            "prefLabel": {
+                "en": "competency"
+            },
+            "definition": {
+                "en": "A knowledge, skill, ability, or other object needed to perform in a given task"
+            }
+        },
+        {
+            "id": "https://w3id.org/xapi/tla/extensions/evidence",
+            "type": "ContextExtension",
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "prefLabel": {
+                "en": "evidence"
+            },
+            "definition": {
+                "en": "An array of the evidence to support an assertion"
+            },
+            "recommendedVerbs": [
+                "https://w3id.org/xapi/tla/verbs/asserted"
+            ]
         }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/activity",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "activity"
-      },
-      "definition": {
-        "en": "Any generic activity an actor can interact with, that is not an assessment"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/job_duty_gig",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "job/duty/gig"
-      },
-      "definition": {
-        "en": "An outline of the duties and requirements to perform these duties for a given position"
-      }
-    },
-    {
-      "type": "ActivityType",
-      "id": "https://w3id.org/xapi/tla/activity-types/assessment",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "assessment"
-      },
-      "definition": {
-        "en": "Any generic exercise that assesses the user's level of competence."
-      }
-    },
-    {
-      "id": "https://w3id.org/xapi/tla/extensions/evidence",
-      "type": "ContextExtension",
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "prefLabel": {
-        "en": "evidence"
-      },
-      "definition": {
-        "en": "An array of the evidence to support an assertion"
-      },
-      "recommendedVerbs": [
-        "https://w3id.org/xapi/tla/verbs/asserted"
-      ]
-    }
-  ],
+    ],
     "templates": [
         {
             "id": "https://w3id.org/xapi/tla#launched",
@@ -317,7 +339,6 @@
                 }
             ]
         },
-
         {
             "id": "https://w3id.org/xapi/tla#passed",
             "type": "StatementTemplate",
@@ -561,55 +582,55 @@
             ]
         }
     ],
-  "patterns": [
-    {
-      "id": "https://w3id.org/xapi/tla#completed_session",
-      "type": "Pattern",
-      "primary": true,
-      "definition": {
-        "en": "This pattern describes the sequence of statements sent over the an entire course registration."
-      },
-      "prefLabel": {
-        "en": "completed session"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "sequence": [
-        "https://w3id.org/xapi/tla#launched",
-        "https://w3id.org/xapi/tla#initialized",
-        "https://w3id.org/xapi/tla#completed",
-        "https://w3id.org/xapi/tla#terminated"
-      ]
-    },
-    {
-      "id": "https://w3id.org/xapi/tla#passed_session",
-      "type": "Pattern",
-      "prefLabel": {
-        "en": "completed session - passed"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "sequence": [
-        "https://w3id.org/xapi/tla#launched",
-        "https://w3id.org/xapi/tla#initialized",
-        "https://w3id.org/xapi/tla#completed",
-        "https://w3id.org/xapi/tla#passed",
-        "https://w3id.org/xapi/tla#terminated"
-      ]
-    },
-    {
-      "id": "https://w3id.org/xapi/tla#failed_session",
-      "type": "Pattern",
-      "prefLabel": {
-        "en": "completed session - failed"
-      },
-      "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
-      "sequence": [
-        "https://w3id.org/xapi/tla#launched",
-        "https://w3id.org/xapi/tla#initialized",
-        "https://w3id.org/xapi/tla#completed",
-        "https://w3id.org/xapi/tla#failed",
-        "https://w3id.org/xapi/tla#terminated"
-      ]
-    }
+    "patterns": [
+        {
+            "id": "https://w3id.org/xapi/tla#completed_session",
+            "type": "Pattern",
+            "primary": true,
+            "definition": {
+                "en": "This pattern describes the sequence of statements sent over the an entire course registration."
+            },
+            "prefLabel": {
+                "en": "completed session"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "sequence": [
+                "https://w3id.org/xapi/tla#launched",
+                "https://w3id.org/xapi/tla#initialized",
+                "https://w3id.org/xapi/tla#completed",
+                "https://w3id.org/xapi/tla#terminated"
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#passed_session",
+            "type": "Pattern",
+            "prefLabel": {
+                "en": "completed session - passed"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "sequence": [
+                "https://w3id.org/xapi/tla#launched",
+                "https://w3id.org/xapi/tla#initialized",
+                "https://w3id.org/xapi/tla#completed",
+                "https://w3id.org/xapi/tla#passed",
+                "https://w3id.org/xapi/tla#terminated"
+            ]
+        },
+        {
+            "id": "https://w3id.org/xapi/tla#failed_session",
+            "type": "Pattern",
+            "prefLabel": {
+                "en": "completed session - failed"
+            },
+            "inScheme": "http://profiles.usalearning.net/xapi/3e81af7e-feff-41ef-bae3-a55363720ca1/v/2",
+            "sequence": [
+                "https://w3id.org/xapi/tla#launched",
+                "https://w3id.org/xapi/tla#initialized",
+                "https://w3id.org/xapi/tla#completed",
+                "https://w3id.org/xapi/tla#failed",
+                "https://w3id.org/xapi/tla#terminated"
+            ]
+        }
 
-  ]
+    ]
 }
