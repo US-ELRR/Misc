@@ -3,10 +3,10 @@
     "id":"mbox::mailto:bob@example.org",
     "type": "Agent",
     "alignments":[
-        {
+      {
         "component": "https://w3id.org/xapi/tla#failed_session",
         "weight": 0.4
-        },
+      },
         {
         "component": "https://w3id.org/xapi/tla#passed_session",
         "weight": -0.5
