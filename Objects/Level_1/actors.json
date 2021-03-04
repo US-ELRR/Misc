@@ -9,22 +9,6 @@
     {
       "name" : "Phil Walker",
       "mbox" : "mailto:phil@example.org"
-    },
-    {
-      "name" : "Sally Davis",
-      "mbox" : "mailto:sally@example.org"
-    },
-    {
-      "name" : "Steve Stewart",
-      "mbox" : "mailto:steve@example.org"
-    },
-    {
-      "name" : "Fred Evans",
-      "mbox" : "mailto:fred@example.org"
-    },
-    {
-      "name" : "Alice Edwards",
-      "mbox" : "mailto:alice@example.org"
     }
   ]
 }
