@@ -3,37 +3,22 @@ $NewStyleFileName = "C:\Users\jgedney\Documents\AlignmentsNewstylelv3.json"
 
 
 [string[]] $List = @(
-"http://w3id.org/xapi/tla/verbs/certified",
-"https://adlnet.gov/expapi/verbs/passed",
-"https://adlnet.gov/expapi/verbs/failed",
-"https://adlnet.gov/expapi/verbs/completed",
-"https://adlnet.gov/expapi/verbs/initialized",
-"https://adlnet.gov/expapi/verbs/terminated",
-"https://adlnet.gov/expapi/verbs/launched",
-"http://w3id.org/xapi/tla/verbs/waived",
-"http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/satisfied",
-"http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/verb/abandoned",
-"https://w3id.org/xapi/tla/verbs/assessed",
-"https://w3id.org/xapi/tla/verbs/contextualized",
-"https://w3id.org/xapi/tla/verbs/located",
-"https://w3id.org/xapi/tla/verbs/socialized",
-"https://w3id.org/xapi/tla/verbs/captured",
-"https://w3id.org/xapi/tla/verbs/asserted",
-"https://w3id.org/xapi/tla/verbs/validated",
-"https://w3id.org/xapi/tla/verbs/inferred",
-"https://w3id.org/xapi/tla/verbs/qualified",
-"https://w3id.org/xapi/tla/verbs/conferred",
-"https://w3id.org/xapi/tla/verbs/certified",
-"https://w3id.org/xapi/tla/verbs/verified" 
+"https://w3id.org/xapi/tla#failed_session",
+"https://w3id.org/xapi/tla#passed_session",
+"https://w3id.org/xapi/tla#initialized",
+"https://w3id.org/xapi/tla#launched",
+"https://w3id.org/xapi/tla#certified",
+"https://w3id.org/xapi/tla#completed",
+"https://w3id.org/xapi/tla#passed",
+"https://w3id.org/xapi/tla#failed",
+"https://w3id.org/xapi/tla#terminated",
+"https://w3id.org/xapi/tla/v0.10/templates#waived",
+"https://w3id.org/xapi/tla#completed_session"
 )
 
 [string[]] $HostList = @(
 "mbox::mailto:bob@example.org",
-"mbox::mailto:phil@example.org",
-"mbox::mailto:sally@example.org",
-"mbox::mailto:steve@example.org",
-"mbox::mailto:fred@example.org",
-"mbox::mailto:alice@example.org"
+"mbox::mailto:phil@example.org"
 )
 $lastItem = $List[$List.Count - 1]
 $lastone = $hostlist[$hostlist.Count - 1]
