@@ -14,7 +14,7 @@
         {
             "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
             "wasRevisionOf": [ "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1" ],
-            "generatedAtTime": "2021-3-05T15:40:02.945Z"
+            "generatedAtTime": "2021-03-05T15:40:02.945Z"
         },
         {
             "id": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/1",
@@ -227,6 +227,7 @@
         },
         {
             "type": "Verb",
+
             "id": "http://w3id.org/xapi/tla/verbs/qualified",
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
             "prefLabel": {
@@ -979,7 +980,7 @@
                 "en": "Indicates the learner has provided sufficient evidence to update the learner's measure of?competence in a given?competency"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/asserted",
+            "verb": "http://w3id.org/xapi/tla/verbs/asserted",
             "rules": [
                 {
                     "location": "$.result",
@@ -1022,7 +1023,7 @@
                 "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/validated",
+            "verb": "http://w3id.org/xapi/tla/verbs/validated",
             "rules": [
                 {
                     "location": "$.result",
@@ -1069,7 +1070,7 @@
                 "en": "Indicates an authoritative source changed a learner's competency assertions based on a valid competency framework change"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/inferred",
+            "verb": "http://w3id.org/xapi/tla/verbs/inferred",
             "rules": [
                 {
                     "location": "$.result",
@@ -1112,7 +1113,7 @@
                 "en": "Indicates the learner meets all the requirements for a badge, but hasn't been awarded the badge yet"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/qualified",
+            "verb": "http://w3id.org/xapi/tla/verbs/qualified",
             "rules": [
                 {
                     "location": "$.result",
@@ -1151,7 +1152,7 @@
                 "en": "Indicates the learner was accredited by an authoritative source to perform a given job or task"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/certified",
+            "verb": "http://w3id.org/xapi/tla/verbs/certified",
             "rules": [
                 {
                     "location": "$.result",
@@ -1190,7 +1191,7 @@
                 "en": "Indicates the authoritative source verified evidence of learning from a non-authoritative source as reliable data"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/verified",
+            "verb": "http://w3id.org/xapi/tla/verbs/verified",
             "rules": [
                 {
                     "location": "$.result",
@@ -1231,7 +1232,7 @@
                 "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
             },
             "inScheme": "http://profiles.usalearning.net/xapi/30c27857-f989-48e2-98b8-c4589ab9df72/v/2",
-            "verb": "http//w3id.org/xapi/tla/verbs/conferred",
+            "verb": "http://w3id.org/xapi/tla/verbs/conferred",
             "rules": [
                 {
                     "location": "$.result",
