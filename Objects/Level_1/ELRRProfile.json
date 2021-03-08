@@ -229,10 +229,6 @@
                     ]
                 },
                 {
-                    "location": "$.context.contextActivities",
-                    "presence": "excluded"
-                },
-                {
                     "location": "$.object.id",
                     "presence": "included",
                     "scopeNote": {
