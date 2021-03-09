@@ -1,99 +1,100 @@
 [
     {
-    "id":"mailto:alice@example.org",
-    "type": "Agent",
-    "alignments":[
-        {
-            "component": "https://w3id.org/xapi/tla#launched",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#completed",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#passed",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#failed",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#initialized",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#abandoned",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#terminated",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#terminated",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#assessed",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#contextualized",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#located",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#socialized",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#captured",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#asserted",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#validated",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#inferred",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#qualified",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#certified",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#verified",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#conferred",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#completed_session",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#passed_session",
-            "weight": 0.8
-        },
-        {
-            "component": "https://w3id.org/xapi/tla#failed_session",
-            "weight": 0.8
-        }
-    ]}
+        "id": "mailto:alice@example.org",
+        "type": "Agent",
+        "alignments": [
+            {
+                "component": "https://w3id.org/xapi/tla#launched",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#completed",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#passed",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#failed",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#initialized",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#abandoned",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#terminated",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#terminated",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#assessed",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#contextualized",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#located",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#socialized",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#captured",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#asserted",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#validated",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#inferred",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#qualified",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#certified",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#verified",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#conferred",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#completed_session",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#passed_session",
+                "weight": 0.8
+            },
+            {
+                "component": "https://w3id.org/xapi/tla#failed_session",
+                "weight": 0.8
+            }
+        ]
+    }
 ]
