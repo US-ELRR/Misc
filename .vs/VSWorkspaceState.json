@@ -3,8 +3,12 @@
     "",
     "\\Objects",
     "\\Objects\\Level_1",
+    "\\Objects\\Level_2",
+    "\\Objects\\Level_3",
+    "\\Objects\\Test",
+    "\\Scripts",
     "\\Templates"
   ],
-  "SelectedNode": "\\Objects\\Level_1",
+  "SelectedNode": "\\Objects\\Test",
   "PreviewInSolutionExplorer": false
 }
