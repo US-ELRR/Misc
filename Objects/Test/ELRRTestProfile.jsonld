@@ -1,470 +1,502 @@
 {
-    "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c",
-    "@context": "https://w3id.org/xapi/profiles/context",
-    "type": "Profile",
-    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
-    "prefLabel": {
-        "en": "test"
+  "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c",
+  "@context": "https://w3id.org/xapi/profiles/context",
+  "type": "Profile",
+  "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+  "prefLabel": {
+    "en": "test"
+  },
+  "definition": {
+    "en": "test"
+  },
+  "seeAlso": "https://github.com/US-ELRR",
+  "versions": [
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "generatedAtTime": "2020-11-05T18:40:02.955Z"
+    }
+  ],
+  "author": {
+    "type": "Organization",
+    "name": "US-ELRR",
+    "url": "https://github.com/US-ELRR"
+  },
+  "concepts": [
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/con100",
+      "type": "Activity",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "CON100 Shaping Smart Business Arrangements"
+        },
+        "description": {
+          "en": "CON100 Shaping Smart Business Arrangements"
+        },
+        "type": "https://w3id.org/xapi/tla/activity-types/activity"
+      }
     },
-    "definition": {
-        "en": "test"
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/ACQAM",
+      "type": "Activity",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "ACQ Acquisition Management"
+        },
+        "description": {
+          "en": "ACQ Acquisition Management"
+        },
+        "type": "https://w3id.org/xapi/tla/activity-types/activity"
+      }
     },
-    "seeAlso": "https://github.com/US-ELRR",
-    "versions": [
-        {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "generatedAtTime": "2020-11-05T18:40:02.955Z"
-        }
-    ],
-    "author": {
-        "type": "Organization",
-        "name": "US-ELRR",
-        "url": "https://github.com/US-ELRR"
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/SR-ACUMEN",
+      "type": "Activity",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "1.1 Skills and Roles: Business Skills and Acumen "
+        },
+        "description": {
+          "en": "1.1 Skills and Roles: Business Skills and Acumen"
+        },
+        "type": "https://w3id.org/xapi/tla/activity-types/competency"
+      }
     },
-    "concepts": [
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/guidprinc",
+      "type": "Activity",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "1.0 Guiding Principles"
+        },
+        "description": {
+          "en": "1.0 Guiding Principles"
+        },
+        "type": "https://w3id.org/xapi/tla/activity-types/competency"
+      }
+    },
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/GPWin",
+      "type": "Activity",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "Badge-Guiding Principles"
+        },
+        "description": {
+          "en": "Earned the 1.0 Guiding Principles Badge"
+        },
+        "type": "https://w3id.org/xapi/tla/activity-types/badge"
+      }
+    },
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/SkillsAssesment",
+      "type": "Activity",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "activityDefinition": {
+        "@context": "https://w3id.org/xapi/profiles/activity-context",
+        "name": {
+          "en": "Skills1.1"
+        },
+        "description": {
+          "en": "Assessment of Skills - Business and Acumen "
+        },
+        "type": "https://w3id.org/xapi/tla/activity-types/assessment"
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "https://w3id.org/xapi/tla#initialized",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "initialized"
+      },
+      "definition": {
+        "en": "Indicates that the activity was started."
+      },
+      "verb": "https://adlnet.gov/expapi/verbs/initialized",
+      "rules": [
         {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/con100",
-            "type": "Activity",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "activityDefinition": {
-                "@context": "https://w3id.org/xapi/profiles/activity-context",
-                "name": {
-                    "en": "CON100 Shaping Smart Business Arrangements"
-                },
-                "description": {
-                    "en": "CON100 Shaping Smart Business Arrangements"
-                },
-                "type": "https://w3id.org/xapi/tla/activity-types/activity"
-            }
+          "location": "$.result.duration",
+          "presence": "excluded"
         },
         {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/ACQAM",
-            "type": "Activity",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "activityDefinition": {
-                "@context": "https://w3id.org/xapi/profiles/activity-context",
-                "name": {
-                    "en": "ACQ Acquisition Management"
-                },
-                "description": {
-                    "en": "ACQ Acquisition Management"
-                },
-                "type": "https://w3id.org/xapi/tla/activity-types/activity"
-            }
+          "location": "$.result.completion",
+          "presence": "excluded"
         },
         {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/SR-ACUMEN",
-            "type": "Activity",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "activityDefinition": {
-                "@context": "https://w3id.org/xapi/profiles/activity-context",
-                "name": {
-                    "en": "1.1 Skills and Roles: Business Skills and Acumen "
-                },
-                "description": {
-                    "en": "1.1 Skills and Roles: Business Skills and Acumen"
-                },
-                "type": "https://w3id.org/xapi/tla/activity-types/competency"
-            }
+          "location": "$.object.id",
+          "presence": "included"
         },
         {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/activity/guidprinc",
-            "type": "Activity",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "activityDefinition": {
-                "@context": "https://w3id.org/xapi/profiles/activity-context",
-                "name": {
-                    "en": "1.0 Guiding Principles"
-                },
-                "description": {
-                    "en": "1.0 Guiding Principles"
-                },
-                "type": "https://w3id.org/xapi/tla/activity-types/competency"
-            }
+          "location": "$.object.objectType",
+          "presence": "included",
+          "all": [
+            "Activity"
+          ]
+        },
+        {
+          "location": "$.object.definition.type",
+          "presence": "included",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/assessment",
+            "https://w3id.org/xapi/tla/activity-types/activity"
+          ]
         }
-    ],
-    "templates": [
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#launched",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "launched"
+      },
+      "definition": {
+        "en": "Indicates the actor attempted to start up an activity"
+      },
+      "verb": "https://adlnet.gov/expapi/verbs/launched",
+      "rules": [
         {
-            "id": "https://w3id.org/xapi/tla#initialized",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "initialized"
-            },
-            "definition": {
-                "en": "Indicates that the activity was started."
-            },
-            "verb": "https://adlnet.gov/expapi/verbs/initialized",
-            "rules": [
-                {
-                    "location": "$.result.duration",
-                    "presence": "excluded"
-                },
-                {
-                    "location": "$.result.completion",
-                    "presence": "excluded"
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.objectType",
-                    "presence": "included",
-                    "all": [
-                        "Activity"
-                    ]
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "included",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/assessment",
-                        "https://w3id.org/xapi/tla/activity-types/activity"
-                    ]
-                }
-            ]
+          "location": "$.object.objectType",
+          "presence": "included",
+          "all": [
+            "Activity"
+          ]
         },
         {
-            "id": "https://w3id.org/xapi/tla#launched",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "launched"
-            },
-            "definition": {
-                "en": "Indicates the actor attempted to start up an activity"
-            },
-            "verb": "https://adlnet.gov/expapi/verbs/launched",
-            "rules": [
-                {
-                    "location": "$.object.objectType",
-                    "presence": "included",
-                    "all": [
-                        "Activity"
-                    ]
-                },
-                {
-                    "location": "$.context.contextActivities",
-                    "presence": "excluded"
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "recommended",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/activity",
-                        "https://w3id.org/xapi/tla/activity-types/assessment"
-                    ]
-                }
-            ]
+          "location": "$.context.contextActivities",
+          "presence": "excluded"
         },
         {
-            "id": "https://w3id.org/xapi/tla#screened",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "screened"
-            },
-            "definition": {
-                "en": "Indicates OICS screened learner for a potentially narrower career trajectory, and passed through a \"gate\" within their career trajectory"
-            },
-            "verb": "https://w3id.org/xapi/tla/verbs/screened",
-            "rules": [
-                {
-                    "location": "$.result",
-                    "presence": "excluded"
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "included",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/career"
-                    ]
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-                    "presence": "recommended"
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/expiration']",
-                    "presence": "recommended"
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
-                    "presence": "included"
-                }
-            ]
+          "location": "$.object.id",
+          "presence": "included"
         },
         {
-            "id": "https://w3id.org/xapi/tla#failed",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "failed"
-            },
-            "definition": {
-                "en": "Indicates the actor did not complete an activity to standard"
-            },
-            "verb": "https://adlnet.gov/expapi/verbs/failed",
-            "rules": [
-                {
-                    "location": "$.authority",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.objectType",
-                    "presence": "included",
-                    "all": [
-                        "Activity"
-                    ]
-                },
-                {
-                    "location": "$.result.score",
-                    "presence": "recommended"
-                },
-                {
-                    "location": "$.result.score.scaled",
-                    "presence": "recommended"
-                },
-                {
-                    "location": "$.result.success",
-                    "presence": "included",
-                    "all": [
-                        false
-                    ]
-                },
-                {
-                    "location": "$.result.completion",
-                    "presence": "included",
-                    "all": [
-                        true
-                    ]
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "included",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/assessment"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://w3id.org/xapi/tla#validated",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "validated"
-            },
-            "definition": {
-                "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
-            },
-            "verb": "https://w3id.org/xapi/tla/verbs/validated",
-            "rules": [
-                {
-                    "location": "$.result",
-                    "presence": "excluded"
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "included",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/competency"
-                    ]
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
-                    "presence": "included"
-                }
-            ]
-        },
-        {
-            "id": "https://w3id.org/xapi/tla#conferred",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "conferred"
-            },
-            "definition": {
-                "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
-            },
-            "verb": "https://w3id.org/xapi/tla/verbs/conferred",
-            "rules": [
-                {
-                    "location": "$.result",
-                    "presence": "excluded"
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "included",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/badge",
-                        "https://w3id.org/xapi/tla/activity-types/credential"
-                    ]
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
-                    "presence": "included"
-                }
-            ]
-        },
-        {
-            "id": "https://w3id.org/xapi/tla#passed",
-            "type": "StatementTemplate",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "passed"
-            },
-            "definition": {
-                "en": "Indicates the actor completed an activity to standard"
-            },
-            "verb": "https://adlnet.gov/expapi/verbs/passed",
-            "rules": [
-                {
-                    "location": "$.object.objectType",
-                    "presence": "included",
-                    "all": [
-                        "Activity"
-                    ]
-                },
-                {
-                    "location": "$.result.score.scaled",
-                    "presence": "recommended"
-                },
-                {
-                    "location": "$.result.success",
-                    "presence": "included",
-                    "all": [
-                        true
-                    ]
-                },
-                {
-                    "location": "$.result.completion",
-                    "presence": "included",
-                    "all": [
-                        true
-                    ]
-                },
-                {
-                    "location": "$.object.id",
-                    "presence": "included"
-                },
-                {
-                    "location": "$.object.definition.type",
-                    "presence": "included",
-                    "any": [
-                        "https://w3id.org/xapi/tla/activity-types/assessment"
-                    ]
-                }
-            ]
+          "location": "$.object.definition.type",
+          "presence": "recommended",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/activity",
+            "https://w3id.org/xapi/tla/activity-types/assessment"
+          ]
         }
-    ],
-    "patterns": [
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#screened",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "screened"
+      },
+      "definition": {
+        "en": "Indicates OICS screened learner for a potentially narrower career trajectory, and passed through a \"gate\" within their career trajectory"
+      },
+      "verb": "https://w3id.org/xapi/tla/verbs/screened",
+      "rules": [
         {
-            "id": "https://w3id.org/xapi/tla#passed_session",
-            "type": "Pattern",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "completed session - passed"
-            },
-            "definition": {
-                "en": ""
-            },
-            "sequence": [
-                "https://w3id.org/xapi/tla#launched",
-                "https://w3id.org/xapi/tla#initialized",
-                "https://w3id.org/xapi/tla#completed",
-                "https://w3id.org/xapi/tla#passed",
-                "https://w3id.org/xapi/tla#terminated"
-            ]
+          "location": "$.result",
+          "presence": "excluded"
         },
         {
-            "id": "https://w3id.org/xapi/tla#failed_session",
-            "type": "Pattern",
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "completed session - failed"
-            },
-            "definition": {
-                "en": ""
-            },
-            "sequence": [
-                "https://w3id.org/xapi/tla#launched",
-                "https://w3id.org/xapi/tla#initialized",
-                "https://w3id.org/xapi/tla#completed",
-                "https://w3id.org/xapi/tla#failed",
-                "https://w3id.org/xapi/tla#terminated"
-            ]
+          "location": "$.object.id",
+          "presence": "included"
         },
         {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/patterns/failedthenpassed",
-            "type": "Pattern",
-            "primary": true,
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "Failedthenpassed"
-            },
-            "definition": {
-                "en": "User Failed and passed the course\n"
-            },
-            "sequence": [
-                "https://w3id.org/xapi/tla#initialized",
-                "https://w3id.org/xapi/tla#launched",
-                "https://w3id.org/xapi/tla#failed",
-                "https://w3id.org/xapi/tla#passed"
-            ]
+          "location": "$.object.definition.type",
+          "presence": "included",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/career"
+          ]
         },
         {
-            "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/patterns/credit",
-            "type": "Pattern",
-            "primary": true,
-            "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
-            "prefLabel": {
-                "en": "Creditewheredue"
-            },
-            "definition": {
-                "en": "giving earned competency\n"
-            },
-            "sequence": [
-                "https://w3id.org/xapi/tla#validated",
-                "https://w3id.org/xapi/tla#conferred"
-            ]
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/expiration']",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
+          "presence": "included"
         }
-    ]
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#failed",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "failed"
+      },
+      "definition": {
+        "en": "Indicates the actor did not complete an activity to standard"
+      },
+      "verb": "https://adlnet.gov/expapi/verbs/failed",
+      "rules": [
+        {
+          "location": "$.authority",
+          "presence": "included"
+        },
+        {
+          "location": "$.object.objectType",
+          "presence": "included",
+          "all": [
+            "Activity"
+          ]
+        },
+        {
+          "location": "$.result.score",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.score.scaled",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.success",
+          "presence": "included",
+          "all": [
+            false
+          ]
+        },
+        {
+          "location": "$.result.completion",
+          "presence": "included",
+          "all": [
+            true
+          ]
+        },
+        {
+          "location": "$.object.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.object.definition.type",
+          "presence": "included",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/assessment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#validated",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "validated"
+      },
+      "definition": {
+        "en": "Indicates an OICS approved a change to a competency framework within the TLA that will affect the learners’ states"
+      },
+      "verb": "https://w3id.org/xapi/tla/verbs/validated",
+      "rules": [
+        {
+          "location": "$.result",
+          "presence": "excluded"
+        },
+        {
+          "location": "$.object.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.object.definition.type",
+          "presence": "included",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/competency"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
+          "presence": "included"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#conferred",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "conferred"
+      },
+      "definition": {
+        "en": "Indicates the OICS conferred a badge to the learner in the learner context extension"
+      },
+      "verb": "https://w3id.org/xapi/tla/verbs/conferred",
+      "rules": [
+        {
+          "location": "$.result",
+          "presence": "excluded"
+        },
+        {
+          "location": "$.object.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.object.definition.type",
+          "presence": "included",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/badge",
+            "https://w3id.org/xapi/tla/activity-types/credential"
+          ]
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/evidence']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/confidence']",
+          "presence": "included"
+        },
+        {
+          "location": "$.context.extensions['https://w3id.org/xapi/tla/extensions/learner']",
+          "presence": "included"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#passed",
+      "type": "StatementTemplate",
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "passed"
+      },
+      "definition": {
+        "en": "Indicates the actor completed an activity to standard"
+      },
+      "verb": "https://adlnet.gov/expapi/verbs/passed",
+      "rules": [
+        {
+          "location": "$.object.objectType",
+          "presence": "included",
+          "all": [
+            "Activity"
+          ]
+        },
+        {
+          "location": "$.result.score.scaled",
+          "presence": "recommended"
+        },
+        {
+          "location": "$.result.success",
+          "presence": "included",
+          "all": [
+            true
+          ]
+        },
+        {
+          "location": "$.result.completion",
+          "presence": "included",
+          "all": [
+            true
+          ]
+        },
+        {
+          "location": "$.object.id",
+          "presence": "included"
+        },
+        {
+          "location": "$.object.definition.type",
+          "presence": "included",
+          "any": [
+            "https://w3id.org/xapi/tla/activity-types/assessment"
+          ]
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "https://w3id.org/xapi/tla#passed_session",
+      "type": "Pattern",
+      "primary": true,
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "completed session - passed"
+      },
+      "definition": {
+        "en": ""
+      },
+      "sequence": [
+        "https://w3id.org/xapi/tla#launched",
+        "https://w3id.org/xapi/tla#initialized",
+        "https://w3id.org/xapi/tla#completed",
+        "https://w3id.org/xapi/tla#passed",
+        "https://w3id.org/xapi/tla#terminated"
+      ]
+    },
+    {
+      "id": "https://w3id.org/xapi/tla#failed_session",
+      "type": "Pattern",
+      "primary": true,
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "completed session - failed"
+      },
+      "definition": {
+        "en": ""
+      },
+      "sequence": [
+        "https://w3id.org/xapi/tla#launched",
+        "https://w3id.org/xapi/tla#initialized",
+        "https://w3id.org/xapi/tla#completed",
+        "https://w3id.org/xapi/tla#failed",
+        "https://w3id.org/xapi/tla#terminated"
+      ]
+    },
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/patterns/failedthenpassed",
+      "type": "Pattern",
+      "primary": true,
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "Failedthenpassed"
+      },
+      "definition": {
+        "en": "User Failed and passed the course\n"
+      },
+      "sequence": [
+        "https://w3id.org/xapi/tla#initialized",
+        "https://w3id.org/xapi/tla#launched",
+        "https://w3id.org/xapi/tla#failed",
+        "https://w3id.org/xapi/tla#passed"
+      ]
+    },
+    {
+      "id": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/patterns/credit",
+      "type": "Pattern",
+      "primary": true,
+      "inScheme": "http://profiles.usalearning.net/xapi/83cf4155-31c6-437d-a118-d0ee7953268c/v/1",
+      "prefLabel": {
+        "en": "Creditewheredue"
+      },
+      "definition": {
+        "en": "giving earned competency\n"
+      },
+      "sequence": [
+        "https://w3id.org/xapi/tla#validated",
+        "https://w3id.org/xapi/tla#conferred"
+      ]
+    }
+  ]
 }
